@@ -1014,7 +1014,7 @@ Result: [Tom]    // 再次get，Tom已set
 - 读资源
 
 ```bash
-# 调用mycc合约中的query接口
+# 调用sacc合约中的get接口
 [WeCross.org1-admin]> call payment.fabric.sacc get a
 Result: [10] // 初次get，a的值为10
 ```
